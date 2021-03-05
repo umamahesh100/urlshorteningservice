@@ -3,7 +3,7 @@
 Description : 
 
 URL Shortner service accepts a valid http or https URL and shortens the URL in the following format 
-http://localhost:9090/{random short string)
+http://localhost:9090/{random_short_string}
 If we select the same shorted url , it will return the Actual full url and populate the url website in a new tab .
 
 The Full url and Shorted urls are persisted , So we will get the same url's .
