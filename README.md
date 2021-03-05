@@ -4,7 +4,7 @@ The URL Shortener service accepts a valid http or https URL and shortens the URL
 
 The full URL and shorted URLs are persisted, so we will get the same URL’s .
 
-Tech stack used
+**Tech stack used**
 
 Spring boot, HTML, JavaScript, AJAX.
 
