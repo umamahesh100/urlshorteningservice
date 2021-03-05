@@ -8,6 +8,12 @@ If we select the same shorted url , it will return the Actual full url and popul
 
 The Full url and Shorted urls are persisted , So we will get the same url's .
 
+Tech stack used :
+Spring boot
+HTML 
+javascript
+ajax
+
 Getting Started 
 
 Clone the application in your local machine 
