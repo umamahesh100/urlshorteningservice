@@ -11,10 +11,10 @@ The Full url and Shorted urls are persisted , So we will get the same url's .
 
 **Tech stack used** 
 
-Spring boot
-HTML 
-javascript
-ajax
+Spring boot ,
+HTML ,
+javascript  ,
+ajax .
 
 **Getting Started **
 
