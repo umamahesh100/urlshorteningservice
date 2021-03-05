@@ -1,39 +1,25 @@
-# Getting Started
+The URL Shortener service accepts a valid http or https URL and shortens the URL in the following format http://localhost:9090/{random_short_string} If we select the same shorted URL, it will return the actual full URL and populate the URL in a new browser tab.
 
+The full URL and shorted URLs are persisted, so we will get the same URL’s .
 
-**Description** : 
+Tech stack used
 
-URL Shortner service accepts a valid http or https URL and shortens the URL in the following format 
-http://localhost:9090/{random_short_string}
-If we select the same shorted url , it will return the Actual full url and populate the url website in a new tab .
-
-The Full url and Shorted urls are persisted , So we will get the same url's .
-
-**Tech stack used** 
-
-Spring boot ,
-HTML ,
-javascript  ,
-ajax .
+Spring boot, HTML, JavaScript, AJAX.
 
 **Getting Started **
 
-Clone the application in your local machine 
+Clone the application in your local machine
 
 run mvn clean install
 
-run the following class  UrlShorteningServiceApplication.java
+run the following class UrlShorteningServiceApplication.java
 
-The Spring boot application will start .
-hit the browser with the following url    http://localhost:9090/
-You will be prompted with two text boxed with Generate Short url and Get Original Url .
+The Spring boot application will start. Access the browser with the following URL http://localhost:9090/ and you will be prompted with two text boxes: 1) with Generate Short URL and 2) Get Original URL.
 
-Enter the url that you want to shorten (for ex : http://www.apple.com/iphone/) in the Full URL text field , click on generate short url . You will receive success alert and click OK . You will receive the shorted url in Short url text field .
-If you click on Get Original url button , you will receive the original URL and the original url will be opened in new tab .
+Enter the URL that you want to shorten (for example: http://www.apple.com/iphone/) in the Full URL text field, and click on generate short URL . You will receive success alert and then click OK . You will receive the shorted URL in Short URL text field. If you click on the Get Original URL button, you will receive the original URL and the original URL will be opened in new browser tab .
 
-I used H2 DB for this example , so we don't need to explicitly setup the db .
+I used H2 DB for this example, so we don't need to explicitly setup the database.
 
-It will only accept the http , https urls . Otherwise it will throw exception .
+It will only accept the http or https URLs . Another URL will throw an exception.
 
-There are different encryption techniques for shorting the url . I used Murmer Hashing , as I believe the Hashing based search pattern is faster .
-As the traffic goes on increasing the Web Crawlers will be quickly finding the urls if they are based on hashing .
+There are different encryption techniques for shorting the URL. I used Murmer Hashing, as I believe the Hashing based search pattern is faster. As the traffic increases, the Web Crawlers will quickly find the URLs based on the hashing technique used.
